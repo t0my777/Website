@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/19b378b2f3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./styles/output.css" />
+
+    <title>website</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img 
+            src="./assets/japanese-restaurant-logo-design-authentic-vector-21183761.jpg" 
+            alt="Logo DevModelo"
+            class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200"
+            >
+            <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Dev Model</h1>
+
+            <span class="text-white font-medium">Sou o Dono dessa Porra</span>
+
+            <div class="bg-green-500 px-4 py-1 rounded-lg mt-5" id="date-span">
+                <span class="text-white font-medium">Seg á Dom - 12:00 as 18:00</span>
+            </div>
+        </div>
+    </header>
+    <!-- FIM HEADER -->
+
+    <h2 class="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
+        conheça nosso menu
+    </h2>
+
+    <!-- INICIO MENU -->
+     <div id="menu">
+
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+        <!-- PRODUTO ITEM-->
+        <div class="flex gap-2">
+        <img
+            src="/assets/Sem título.png" 
+            alt="Frango Smash"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            />
+
+            <div>
+            <p class="font-bold">Frango Smash</p>
+            <p class="text-sm">Um frango que vai matar o seu apetite e que não vai ser esquecido tão rapido, servidas com 5 unidades.</p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p class="font-bold text-lg">R$ 56.90</p>
+                <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="Frango Smash"
+                data-price="56.90"
+                >
+                    <i class="fa-solid fa-cart-arrow-down text-white"></i>
+                </button>
+            </div>
+            </div>
+        </div>
+        <!-- FIM PRODUTO ITEM-->
+
+        <!-- PRODUTO ITEM-->
+        <div class="flex gap-2">
+            <img
+                src="/assets/Sem título2.png" 
+                alt="Ramen de Camarão"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                />
+
+                <div>
+                <p class="font-bold">Ramen de Camarão</p>
+                <p class="text-sm">Ramen ou macarrão japones é o nome desse delicioso prato acompanhado de camarões com um refinado molho de camarão.</p>
+
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 76.90</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="Ramen de Camarão"
+                    data-price="76.90"
+                    >
+                        <i class="fa-solid fa-cart-arrow-down text-white"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <!-- FIM PRODUTO ITEM-->
+
+        <!-- PRODUTO ITEM-->
+        <div class="flex gap-2">
+            <img
+                src="/assets/Sem título3.png" 
+                alt="Ramen de Camarão"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                />
+
+                <div>
+                <p class="font-bold">Ramen de Cogumelos e Carne</p>
+                <p class="text-sm">Ramen ou macarrão japones é o nome desse delicioso prato acompanhado de Cogumelos, Carne e outros com um refinado molho de Carne e Cogumelo.</p>
+
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 56.90</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="Ramen de Cogumelos e Carne"
+                    data-price="56.90"
+                    >
+                        <i class="fa-solid fa-cart-arrow-down text-white"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <!-- FIM PRODUTO ITEM-->
+
+        <!-- PRODUTO ITEM-->
+        <div class="flex gap-2">
+            <img
+                src="/assets/Sem título4.png" 
+                alt="Curry Coreano"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                />
+
+                <div>
+                <p class="font-bold">Curry Coreano</p>
+                <p class="text-sm">Um Curry feito com os produtos coreanos que faz a lingua palpitar, contém nivel de pimenta 2 de 5.</p>
+
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 52.90</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="Curry Coreano"
+                    data-price="52.90"
+                    >
+                        <i class="fa-solid fa-cart-arrow-down text-white"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <!-- FIM PRODUTO ITEM-->
+
+        <!-- PRODUTO ITEM-->
+        <div class="flex gap-2">
+            <img
+                src="/assets/Sem título5.png" 
+                alt="Ramen de Porco"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                />
+
+                <div>
+                <p class="font-bold">Ramen de Porco</p>
+                <p class="text-sm">Ramen ou macarrão japones é o nome desse delicioso prato acompanhado de porco e ovo com um refinado molho de porco.</p>
+
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 42.90</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="Ramen de Porco"
+                    data-price="42.90"
+                    >
+                        <i class="fa-solid fa-cart-arrow-down text-white"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <!-- FIM PRODUTO ITEM-->
+
+        <!-- PRODUTO ITEM-->
+        <div class="flex gap-2">
+            <img
+                src="/assets/Sem título6.png" 
+                alt="Frango Frito"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                />
+
+                <div>
+                <p class="font-bold">Frango Frito</p>
+                <p class="text-sm">Frango Frito com molho coreano recheado de especiarias e preparado com ovos e algas marinhas.</p>
+
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 58.90</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="Frango Frito"
+                    data-price="58.90"
+                    >
+                        <i class="fa-solid fa-cart-arrow-down text-white"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <!-- FIM PRODUTO ITEM-->
+
+        <!-- PRODUTO ITEM-->
+        <div class="flex gap-2">
+            <img
+                src="/assets/Sem título7.png" 
+                alt="Mochi de Morango"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                />
+
+                <div>
+                <p class="font-bold">Mochi de Morango</p>
+                <p class="text-sm">Mochi de Morango com 8 unidades no pacote recheados com morango e leite ninho, em formato circular e macio.</p>
+
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 32.90</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="Mochi de Morango"
+                    data-price="32.90"
+                    >
+                        <i class="fa-solid fa-cart-arrow-down text-white"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <!-- FIM PRODUTO ITEM-->
+
+        <!-- PRODUTO ITEM-->
+        <div class="flex gap-2">
+            <img
+                src="/assets/Sem título8.png" 
+                alt="Panqueca Japonesa"
+                class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+                />
+
+                <div>
+                <p class="font-bold">Panqueca Japonesa</p>
+                <p class="text-sm">8 Panquecas que fazem derretem na boca acompanhadas de 8 morangos e uma cauda cremosa de mel por cima.</p>
+
+                <div class="flex items-center gap-2 justify-between mt-3">
+                    <p class="font-bold text-lg">R$ 20.90</p>
+                    <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                    data-name="Panqueca Japonesa"
+                    data-price="20.90"
+                    >
+                        <i class="fa-solid fa-cart-arrow-down text-white"></i>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <!-- FIM PRODUTO ITEM-->
+
+        </main>
+
+        <div class="mx-auto max-w-7xl px-2 my-2">
+            <h2 class="font-bold text-3xl">
+                Bebidas
+            </h2>
+        </div>
+
+        <!-- GRID BEBIDAS -->
+         <div class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16" id="menu">
+
+            <!-- PRODUTO ITEM-->
+<div class="flex gap-2 w-full">
+    <img
+        src="/assets/pepsi.jpeg" 
+        alt="Pepsi"
+        class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+        />
+
+        <div class="w-full">
+        <p class="font-bold">Pepsi</p>
+
+        <div class="flex items-center gap-2 justify-between mt-3">
+            <p class="font-bold text-lg">R$ 6.90</p>
+            <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+            data-name="Pepsi"
+            data-price="6.90"
+            >
+                <i class="fa-solid fa-cart-arrow-down text-white"></i>
+            </button>
+        </div>
+        </div>
+    </div>
+    <!-- FIM PRODUTO ITEM-->
+
+    <!-- PRODUTO ITEM-->
+    <div class="flex gap-2 w-full">
+        <img
+            src="/assets/coca.jpeg" 
+            alt="coca"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
+            />
+    
+            <div class="w-full">
+            <p class="font-bold">Coca cola</p>
+    
+            <div class="flex items-center gap-2 justify-between mt-3">
+                <p class="font-bold text-lg">R$ 6.90</p>
+                <button class="bg-gray-900 px-5 rounded add-to-cart-btn"
+                data-name="coca cola"
+                data-price="6.90"
+                >
+                    <i class="fa-solid fa-cart-arrow-down text-white"></i>
+                </button>
+            </div>
+            </div>
+        </div>
+        <!-- FIM PRODUTO ITEM-->
+
+         </div>
+
+        <!-- FIM GRID BEBIDAS -->
+
+    
+    </div>
+    <!-- FIM MENU -->
+
+    <!-- MODAL CART -->
+     <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+     id="cart-modal"
+     >
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+            <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
+
+            <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+            <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
+
+            <p class="font-bold mt-4">Endereço de Entrega:</p>
+            <input 
+            type="text"
+            placeholder="Digite seu endereço completo..."
+            id="address"
+            class="w-full border-2 p-1 rounded my-1"
+            />
+            <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
+
+            <div class="flex items-center justify-between mt-5 w-full">
+                <button id="close-modal-btn">Fechar</button>
+                <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar pedido</button>
+            </div>
+
+        </div>
+
+     </div>
+    <!-- FIM MODAL CART -->
+
+    <!-- BUTTON CART FOOTER -->
+     <FOOter class="w-full bg-red-500 py-3 fixed bottom-0 z-40 flex items-center justify-center">
+        <BUtton class="flex items-center gap-2 text-white font-bold"
+        id="cart-btn"
+        >
+            (<SPan id="cart-count">0</SPan>)
+            Veja meu carrinho
+            <i class="fa fa-cart-plus text-lg text-white"></i>
+        </BUtton>
+     </FOOter>
+
+    <!-- FIM BUTTON CART FOOTER -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
